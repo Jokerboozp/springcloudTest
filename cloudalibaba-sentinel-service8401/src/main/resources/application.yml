@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloudalibaba-sentinel-service
+    name: cloudalibaba-sentinel-com.sc.service
   cloud:
     nacos:
       discovery:
@@ -16,7 +16,7 @@ spring:
         ds1:
           nacos:
             server-addr: localhost:8848
-            dataId: cloudalibaba-sentinel-service
+            dataId: cloudalibaba-sentinel-com.sc.service
             groupId: DEFAULT_GROUP
             data-type: json
             rule-type: flow
