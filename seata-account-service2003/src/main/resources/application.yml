@@ -7,7 +7,7 @@ spring:
   cloud:
     alibaba:
       seata:
-        tx-service-group: fsp_tx_group
+        tx-service-group: zp-tx-group
     nacos:
       discovery:
         server-addr: localhost:8848

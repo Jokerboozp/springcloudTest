@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: seata-storage-com.sc.service
+    name: seata-storage-service
   cloud:
     alibaba:
       seata:
